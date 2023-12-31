@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+}
+
+#back_img {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header {
+    background-color: #181818;
+    opacity: 0.75;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 15px 300px;
+}
+
+header button {
+    background-color: inherit;
+    border: 0;
+    color: inherit;
+}
+
+footer {
+    position: absolute;
+    top: 669px;
+    left: 0;
+}
+
+main {
+    width: 100vw;
+}
+
+.main {
+    background-color: #181818;
+    opacity: 0.8;
+    width: 930px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #282828;
+    border: 1px solid  #FFF;
+    padding: 5px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.form {
+    height: 90%;
+    width: 90%;
+    border: 1px solid #FFF;
+}
+
+.form_input{
+    background-color: inherit;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    color: #fff;
+    font-size: 18px;
+}
+
+.form_input:active{
+    background-color: inherit;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    outline: none;
+}
+
+.form_input:focus{
+    background-color: inherit;
+    border: 0;
+    border-bottom: 1px solid #FFF;
+    outline: none;
+}
+
+#error {
+    color: #fd5c63;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #FFF;
+    text-align: left;
+    padding: 8px;
+}
