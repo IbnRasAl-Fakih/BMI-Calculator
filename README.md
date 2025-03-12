@@ -6,6 +6,7 @@ Packages that were used:
   
   npm install ejs (templating tool)
   
+
   
 Informations about BMI from this link:
   https://www.nivea.ru/advice/calculator-bmi
